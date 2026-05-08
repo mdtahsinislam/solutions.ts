@@ -27,6 +27,7 @@ class BankAccount {
         this.balance += amount;
     }
 
+
     getBalance(): number {
         return this.balance;
     }
@@ -74,10 +75,12 @@ if-else কমে যায়
 
 Example:
 class Animal {
+
     sound() {
         console.log("Some sound");
     }
 }
+
 
 class Cat extends Animal {
     sound() {
@@ -106,6 +109,7 @@ readability বাড়ে
 
 Example:
 abstract class Vehicle {
+  
     abstract start(): void;
 }
 

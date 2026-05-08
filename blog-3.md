@@ -29,6 +29,7 @@ Example:
 A generic function: 
 
 function identity<T>(value: T): T {
+   
     return value;
 }
 

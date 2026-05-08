@@ -21,8 +21,6 @@ function checkType(value: StringOrNumber): string {
          return "Number";
     }
 }
-
-
 //console.log(checkType("Hello"));
 //console.log(checkType(42));
 

@@ -1,7 +1,6 @@
 function filterEvenNumbers(numbers: number[]): number[] {
     return  numbers.filter(num => num % 2 === 0); }
-
-    //console.log(filterEvenNumbers([1, 2, 3, 4, 5, 6]));
+//console.log(filterEvenNumbers([1, 2, 3, 4, 5, 6]));
 
 
 
@@ -25,8 +24,6 @@ function checkType(value: StringOrNumber): string {
 
 
 //console.log(checkType("Hello"));
-
-
 //console.log(checkType(42));
 
 
@@ -43,7 +40,6 @@ const user = {
        name: "John Doe",
      age: 21
 };
-
 //console.log(getProperty(user, "name"));
 
 
@@ -69,8 +65,6 @@ const myBook: Book = {
           author: "Jane Doe",
       publishedYear: 2024
 };
-
-
 //console.log(toggleReadStatus(myBook));
 
 
@@ -86,7 +80,6 @@ class Person {
     }
 }
 
-
 class Student extends Person {
     grade: string;
 
@@ -100,19 +93,15 @@ class Student extends Person {
         return `Name: ${this.name}, Age: ${this.age}, Grade: ${this.grade}`;
     }
 }
-
-
 const student = new Student("Alice", 20, "A");
-
-
 //console.log(student.getDetails());
 
   
 
+
+
 function getIntersection(arr1: number[], arr2: number[]): number[] {
     return arr1.filter(num => arr2.includes(num));
 }
-
-
 //console.log(getIntersection([1, 2, 3, 4, 5], [3, 4, 5, 6, 7]));
 

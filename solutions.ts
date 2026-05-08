@@ -1,22 +1,19 @@
 function filterEvenNumbers(numbers: number[]): number[] {
     return  numbers.filter(num => num % 2 === 0); }
 
+    //console.log(filterEvenNumbers([1, 2, 3, 4, 5, 6]));
 
-//console.log(filterEvenNumbers([1, 2, 3, 4, 5, 6]));
 
 
 function reverseString(text: string): string {
     return text.split("").reverse().join("");
 }
-
-
 //console.log(reverseString("typescript"));
 
 
 
-// Define Union Type
-type StringOrNumber = string | number;
 
+type StringOrNumber = string | number;
 
 function checkType(value: StringOrNumber): string {
     if (typeof value === "string") {
@@ -35,7 +32,7 @@ function checkType(value: StringOrNumber): string {
 
 
 
-// Generic function with constraints
+
 function getProperty<T, K extends keyof T>(obj: T, key: K): T[K] {
         return obj[key];
 }
